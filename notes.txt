@@ -1,0 +1,34 @@
+ADMIN
+- bisa mengakses semua fitur
+MENU :
+    - CRUD data kelas
+    - CRUD data siswa 
+    - CRUD data petugas 
+    - CRUD data tagihan SPP 
+
+PETUGAS
+- hanya fitur pembayaran
+MENU :
+    - lihat data tagihan SPP 
+    - tambah pembayaran
+
+SISWA
+- hanya melihat tagihan SPP
+MENU :
+    - lihat tagihan SPP 
+
+
+DATABASE
+siswa 
+- id
+- nama
+- alamat
+- id_kelas
+
+kelas 
+- id
+- nama_kelas
+
+petugas 
+- id
+- nama_petugas
