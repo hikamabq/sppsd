@@ -1,6 +1,6 @@
 <?php 
 require_once('layouts/header.php');
-require_once('db.php');
+require_once('../db.php');
 
 $query = "SELECT * FROM petugas WHERE id = ".$_GET['id']."";
 $tampilkan = mysqli_query($con, $query);

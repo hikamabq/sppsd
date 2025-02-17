@@ -16,7 +16,6 @@
         <div class="container">
             <a href="index.php">Home</a>
             <a href="index_siswa.php">Siswa</a>
-            <a href="index_kelas.php">Kelas</a>
-            <a href="index_petugas.php">Petugas</a>
+            <a href="logout.php">Logout</a>
         </div>
     </nav>

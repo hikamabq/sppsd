@@ -1,6 +1,7 @@
 <?php 
 require_once('layouts/header.php');
-require_once('db.php');
+require_once('../db.php');
+
 
 if(isset($_POST['kirim'])){
     $petugas = $_POST['nama_petugas'];
